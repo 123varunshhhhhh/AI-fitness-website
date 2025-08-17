@@ -1,0 +1,77 @@
+[YOUR NAME]
+[Your Phone Number] | [Your Email] | [Your LinkedIn] | [Your Location]
+
+OBJECTIVE
+Passionate Computer Science/Engineering student seeking a Product Development Intern position at MeetMux to leverage analytical skills, product management knowledge, and AI technology expertise in building innovative social-tech solutions that revolutionize real-life social connections.
+
+EDUCATION
+Bachelor of Technology in Computer Science Engineering
+[University Name] | [Expected Graduation: Month Year]
+CGPA: [X.X/10.0]
+Relevant Coursework: Data Structures, Algorithms, Software Engineering, Human-Computer Interaction, Machine Learning, Mobile Application Development
+
+TECHNICAL SKILLS
+• Programming Languages: Python, Java, JavaScript, C++, SQL
+• Product Management Tools: Jira, Trello, Confluence, Asana, Notion
+• Design & Prototyping: Figma, Adobe XD, Sketch, InVision, Balsamiq
+• Development Frameworks: React, Node.js, Flutter, React Native
+• AI/ML Technologies: TensorFlow, scikit-learn, Natural Language Processing
+• Database Management: MySQL, MongoDB, PostgreSQL
+• Version Control: Git, GitHub, GitLab
+• Agile Methodologies: Scrum, Kanban, Sprint Planning
+• Analytics Tools: Google Analytics, Mixpanel, Amplitude
+
+EXPERIENCE
+
+Product Management Intern | [Company Name] | [Month Year - Month Year]
+• Collaborated with cross-functional teams including designers, developers, and stakeholders to conceptualize and execute 3 innovative mobile app features
+• Conducted comprehensive market research and competitive analysis for social networking platforms, identifying 15+ user needs and product opportunities
+• Built interactive prototypes and user flows using Figma, resulting in 25% improvement in user engagement metrics
+• Gathered and analyzed user feedback from 500+ users to refine features and enhance user experience
+• Worked on end-to-end lifecycle of product features from ideation to development, testing, and launch
+• Coordinated with backend and frontend teams for smooth API and UI/UX integration across 5 product releases
+• Participated in strategic discussions to align product roadmap with company vision and user-centered design principles
+
+Software Development Intern | [Company Name] | [Month Year - Month Year]
+• Developed AI-driven recommendation system using Python and machine learning algorithms, improving user matching accuracy by 30%
+• Implemented RESTful APIs for mobile app backend, supporting 10,000+ concurrent users
+• Collaborated in agile development environment using Jira for project management and sprint planning
+• Built responsive web interfaces using React and JavaScript, focusing on user experience optimization
+• Participated in code reviews and maintained version control using Git and GitHub
+
+PROJECTS
+
+MeetConnect - AI-Powered Social Discovery App | [Month Year - Month Year]
+• Designed and developed a social networking mobile application using React Native and Node.js
+• Implemented AI-driven activity discovery algorithm using machine learning to match users based on interests and location
+• Created user-centered design wireframes and prototypes, conducting usability testing with 50+ users
+• Integrated real-time chat functionality and push notifications for enhanced user engagement
+• Applied agile methodologies throughout development lifecycle with regular sprint reviews
+
+Smart Event Recommendation System | [Month Year - Month Year]
+• Built an intelligent event recommendation platform using Python, TensorFlow, and collaborative filtering
+• Conducted market research and competitive analysis of existing event discovery platforms
+• Developed user flows and wireframes focusing on user experience and social connection features
+• Implemented data analytics dashboard for tracking user engagement and feature performance
+
+Campus Connect - University Social Platform | [Month Year - Month Year]
+• Led a team of 4 developers to create a social platform connecting university students through shared activities
+• Managed product development lifecycle using Trello and agile methodologies
+• Designed intuitive UI/UX focusing on user-centered design principles and mobile-first approach
+• Gathered user feedback through surveys and interviews, iterating on features based on insights
+
+ACHIEVEMENTS & CERTIFICATIONS
+• Google Product Management Certificate - Coursera (2024)
+• Agile Project Management Professional Certification (2024)
+• Winner - University Hackathon for Best Social Innovation App (2024)
+• AWS Cloud Practitioner Certification (2024)
+• Published Research Paper on "AI-Driven Social Matching Algorithms" - IEEE Conference (2024)
+
+ADDITIONAL SKILLS
+• Strong analytical and problem-solving abilities with experience in data-driven decision making
+• Excellent communication skills with experience presenting to stakeholders and cross-functional teams
+• Deep understanding of emerging trends in AI, social networking, and mobile app development
+• Proven ability to thrive in fast-paced startup environments with ownership mindset
+• Experience with user research methodologies and usability testing
+• Knowledge of social-tech platforms and community building strategies
+• Familiarity with product analytics and KPI tracking for user engagement optimization
