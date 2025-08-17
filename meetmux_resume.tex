@@ -1,0 +1,178 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+% \usepackage{fontawesome5} % Not available, using text symbols instead
+\usepackage{tabularx}
+\usepackage{array}
+
+% Page geometry
+\geometry{margin=0.75in}
+
+% Colors
+\definecolor{primarycolor}{RGB}{0,102,204}
+\definecolor{darkgray}{RGB}{64,64,64}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primarycolor,
+    urlcolor=primarycolor,
+    pdftitle={Product Development Intern Resume},
+    pdfauthor={Your Name}
+}
+
+% Custom commands
+\newcommand{\resumesection}[1]{
+    \vspace{8pt}
+    \textcolor{primarycolor}{\textbf{\Large #1}}
+    \vspace{2pt}
+    \hrule
+    \vspace{6pt}
+}
+
+\newcommand{\resumesubsection}[4]{
+    \textbf{#1} \hfill \textcolor{darkgray}{\textit{#2}} \\
+    \textit{#3} \hfill \textcolor{darkgray}{#4} \\
+    \vspace{2pt}
+}
+
+\newcommand{\resumeproject}[3]{
+    \textbf{#1} \hfill \textcolor{darkgray}{\textit{#2}} \\
+    \textit{#3} \\
+    \vspace{2pt}
+}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Adjust spacing
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\renewcommand{\baselinestretch}{1.1}
+
+% Section title formatting
+\titleformat{\section}{\large\bfseries\color{primarycolor}}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt}{6pt}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\Huge \textbf{ALEX JOHNSON}} \\
+    \vspace{4pt}
+    \textcolor{darkgray}{Product Development \& AI-Driven Social Technology Enthusiast} \\
+    \vspace{6pt}
+    Phone: +91-9876543210 \quad
+    Email: \href{mailto:alex.johnson@email.com}{alex.johnson@email.com} \quad
+    LinkedIn: \href{https://linkedin.com/in/alexjohnson}{linkedin.com/in/alexjohnson} \quad
+    GitHub: \href{https://github.com/alexjohnson}{github.com/alexjohnson}
+\end{center}
+
+\vspace{10pt}
+
+% Professional Summary
+\resumesection{PROFESSIONAL SUMMARY}
+Passionate Computer Science student with hands-on experience in product development, AI-driven applications, and social-tech platforms. Proven expertise in agile methodologies, user-centered design principles, and cross-functional collaboration with backend and frontend teams. Strong analytical and problem-solving skills with experience in market research, competitive analysis, and user feedback analysis. Seeking to leverage technical expertise and product management skills to drive innovation at MeetMux's AI-powered social platform.
+
+% Education
+\resumesection{EDUCATION}
+\resumesubsection{Bachelor of Technology in Computer Science Engineering}{Expected May 2025}{Indian Institute of Technology (IIT) Delhi}{CGPA: 8.7/10}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item \textbf{Relevant Coursework:} Software Engineering, Human-Computer Interaction, Database Management Systems, Machine Learning, Mobile Application Development, Data Structures \& Algorithms
+    \item \textbf{Academic Projects:} AI-driven recommendation systems, social networking platforms, mobile app prototypes
+\end{itemize}
+
+% Technical Skills
+\resumesection{TECHNICAL SKILLS}
+\begin{tabularx}{\textwidth}{@{}l X@{}}
+\textbf{Programming Languages:} & Python, Java, JavaScript, TypeScript, C++, SQL, HTML5, CSS3 \\
+\textbf{Frameworks \& Technologies:} & React.js, Node.js, Flutter, Django, Flask, MongoDB, PostgreSQL, Firebase \\
+\textbf{Product Management Tools:} & Jira, Trello, Confluence, Figma, Adobe XD, Miro, Notion, Slack \\
+\textbf{AI \& Machine Learning:} & TensorFlow, PyTorch, Scikit-learn, Natural Language Processing, Recommendation Systems \\
+\textbf{Development Tools:} & Git, Docker, AWS, Google Cloud Platform, REST APIs, Agile Methodologies \\
+\textbf{Design \& Prototyping:} & User Experience Design, Wireframing, User Flow Design, Prototyping, User Research \\
+\end{tabularx}
+
+% Professional Experience
+\resumesection{PROFESSIONAL EXPERIENCE}
+
+\resumesubsection{Product Development Intern}{June 2024 - August 2024}{TechConnect Solutions Pvt. Ltd.}{Bangalore, India}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item Collaborated with product managers, designers, and developers to conceptualize and execute 3 innovative features for social networking mobile application, resulting in 25\% increase in user engagement
+    \item Conducted comprehensive market research and competitive analysis across 15+ social-tech platforms to identify user needs and product opportunities, delivering actionable insights to leadership team
+    \item Built interactive prototypes, user flows, and wireframes using Figma and Adobe XD to visualize product concepts, reducing development time by 30\%
+    \item Gathered and analyzed user feedback from 500+ users through surveys and interviews to refine features and enhance user experience, achieving 4.2/5 user satisfaction rating
+    \item Worked on end-to-end lifecycle of product features from ideation to development, testing, and launch using agile methodologies and Jira for project management
+    \item Coordinated with backend and frontend teams for smooth API integration and UI/UX implementation, ensuring seamless user experience across mobile platforms
+\end{itemize}
+
+\resumesubsection{Software Development Intern}{May 2023 - July 2023}{InnovateAI Labs}{Remote}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item Developed AI-driven recommendation engine for social platform using Python, TensorFlow, and machine learning algorithms, improving user matching accuracy by 40\%
+    \item Implemented user-centered design principles to create intuitive mobile app interfaces, conducting user research and usability testing with 200+ participants
+    \item Participated in strategic discussions with product team to align development roadmap with company vision for AI-first social technology platform
+    \item Utilized agile methodologies and collaborated in cross-functional teams using Trello and Slack for project coordination and communication
+\end{itemize}
+
+% Projects
+\resumesection{ACADEMIC \& PERSONAL PROJECTS}
+
+\resumeproject{AI-Powered Social Activity Matching Platform}{January 2024 - April 2024}{Full-Stack Development \& Product Design}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item Designed and developed AI-driven social platform connecting users based on shared interests and activities using React.js, Node.js, and MongoDB
+    \item Implemented machine learning algorithms for intelligent user matching and activity recommendation, achieving 85\% user satisfaction in beta testing
+    \item Created comprehensive user flows, wireframes, and prototypes using Figma, conducting user research with 100+ participants to validate product concepts
+    \item Integrated backend APIs with frontend UI/UX components, ensuring seamless user experience and real-time data synchronization
+\end{itemize}
+
+\resumeproject{Mobile Social Networking App}{September 2023 - December 2023}{Flutter \& Firebase Development}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item Built cross-platform mobile application using Flutter and Firebase for real-time social interactions and community building
+    \item Implemented user authentication, real-time messaging, and social features following user-centered design principles
+    \item Conducted competitive analysis of 10+ social networking apps to identify market gaps and user pain points
+    \item Performed user feedback analysis and iterative testing to enhance user experience and app performance
+\end{itemize}
+
+\resumeproject{Product Management Case Study: Social-Tech Platform}{March 2024}{Market Research \& Strategy}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item Conducted comprehensive market research and competitive analysis for emerging social-tech platforms, identifying key trends in AI-driven social networking
+    \item Developed product roadmap and feature prioritization framework using data-driven insights and user persona analysis
+    \item Created detailed user journey maps and wireframes for enhanced user experience in social discovery applications
+\end{itemize}
+
+% Leadership & Extracurricular
+\resumesection{LEADERSHIP \& EXTRACURRICULAR ACTIVITIES}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item \textbf{Product Management Club, IIT Delhi} - Vice President (2023-2024): Led 50+ member club focusing on product strategy, user research, and agile methodologies
+    \item \textbf{TechFest Innovation Challenge} - Winner (2024): Developed AI-powered social platform prototype, recognized for innovative approach to user matching
+    \item \textbf{Google Developer Student Club} - Core Team Member (2022-2024): Organized workshops on mobile app development and AI technologies for 200+ students
+    \item \textbf{Hackathon Participant} - Multiple wins in social-tech and AI-driven application development competitions
+\end{itemize}
+
+% Certifications
+\resumesection{CERTIFICATIONS \& ACHIEVEMENTS}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item \textbf{Certified Product Manager} - Product School (2024)
+    \item \textbf{Google UX Design Certificate} - Coursera (2023)
+    \item \textbf{Agile and Scrum Fundamentals} - IBM (2023)
+    \item \textbf{Machine Learning Specialization} - Stanford University, Coursera (2023)
+    \item \textbf{AWS Certified Cloud Practitioner} - Amazon Web Services (2024)
+    \item \textbf{Dean's List} - IIT Delhi (2022, 2023, 2024) for academic excellence
+\end{itemize}
+
+% Additional Information
+\resumesection{ADDITIONAL INFORMATION}
+\begin{itemize}[leftmargin=15pt, itemsep=2pt]
+    \item \textbf{Languages:} English (Fluent), Hindi (Native), Spanish (Conversational)
+    \item \textbf{Interests:} AI and Machine Learning, Social Technology Trends, User Experience Research, Mobile App Innovation, Startup Ecosystem
+    \item \textbf{Availability:} Immediate start, flexible for full-time internship commitment
+    \item \textbf{Location:} Open to relocation for internship opportunity
+\end{itemize}
+
+\end{document}
