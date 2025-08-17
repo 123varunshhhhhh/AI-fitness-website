@@ -1,0 +1,48 @@
+[Your Name]
+[Your Address]
+[City, State, ZIP Code]
+[Your Email]
+[Your Phone Number]
+[Date]
+
+Hiring Manager
+Altrodav Technologies Pvt. Ltd.
+MeetMux Team
+[Company Address]
+
+Dear MeetMux Hiring Team,
+
+I am writing to express my strong interest in the Product Development Intern position at MeetMux by Altrodav Technologies Pvt. Ltd. As a passionate Computer Science student with hands-on experience in AI-driven product development and social networking platforms, I am excited about the opportunity to contribute to revolutionizing real-life social connections through innovative technology.
+
+Your vision of building "the future of how people connect, engage, and create memorable experiences" deeply resonates with my career aspirations and technical expertise. Having worked extensively with AI-powered recommendation systems and social discovery platforms, I understand the complexity and potential impact of creating meaningful real-world connections through intelligent matching algorithms.
+
+Why I'm Perfect for MeetMux:
+
+TECHNICAL ALIGNMENT: My experience developing AI-driven social discovery applications directly aligns with MeetMux's core technology stack. I have successfully implemented machine learning algorithms for user matching, built recommendation systems using TensorFlow, and created social networking platforms that prioritize user experience and safety.
+
+PRODUCT DEVELOPMENT EXPERTISE: Through my previous internships, I have collaborated with cross-functional teams of product managers, designers, and developers to conceptualize and execute innovative mobile app features. I have conducted comprehensive market research and competitive analysis for social networking platforms, identifying user needs and product opportunities that drive engagement.
+
+AGILE & STARTUP EXPERIENCE: I thrive in fast-paced startup environments and have extensive experience with agile methodologies, using tools like Jira and Trello for project management. My ownership mindset and ability to work on end-to-end product lifecycles from ideation to launch makes me well-suited for MeetMux's dynamic environment.
+
+USER-CENTERED DESIGN FOCUS: I have built interactive prototypes, user flows, and wireframes using Figma and Adobe XD, always prioritizing user-centered design principles. My experience gathering and analyzing user feedback from 500+ users has taught me the importance of data-driven product decisions.
+
+AI & SOCIAL TECH PASSION: My deep curiosity for emerging trends in AI, social networking, and mobile apps has led me to publish research on AI-driven social matching algorithms. I stay updated with the latest developments in personalization technology and understand the challenges of building safe, meaningful social connections at scale.
+
+What I Bring to Your Team:
+
+• Proven ability to coordinate with backend and frontend teams for smooth API and UI/UX integration
+• Experience participating in strategic discussions to align product roadmap with company vision
+• Strong analytical and problem-solving skills with a track record of improving user engagement metrics
+• Excellent communication abilities and experience presenting to stakeholders
+• Knowledge of product analytics tools and KPI tracking for user engagement optimization
+
+I am particularly excited about MeetMux's focus on safety and meaningful connections, as I believe technology should enhance rather than replace real-world interactions. Your AI-first approach to social-tech aligns perfectly with my technical background and vision for the future of social platforms.
+
+The opportunity to work directly on a live product impacting thousands of users, receive mentorship from industry experts, and potentially secure a pre-placement offer makes this internship incredibly appealing. I am ready to contribute my skills, creativity, and passion to help MeetMux achieve its global ambitions.
+
+I would welcome the opportunity to discuss how my technical expertise, product development experience, and enthusiasm for social-tech innovation can contribute to MeetMux's mission. Thank you for considering my application.
+
+Sincerely,
+[Your Name]
+
+P.S. I have attached my resume detailing my relevant projects, including an AI-powered social discovery app that implemented intelligent matching algorithms similar to MeetMux's core functionality. I would be happy to demonstrate this project and discuss how my learnings can benefit your team.
