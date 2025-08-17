@@ -1,0 +1,300 @@
+% 
+% MeetMux Product Development Intern Resume - ATS Optimized v3.0
+% Enhanced for 80+ ATS Score with MeetMux-specific keywords
+% 
+
+\documentclass[a4paper,11pt]{article}
+
+% Package imports
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+% \usepackage{fontawesome5} % Commented out for compatibility
+% \usepackage{cfr-lm} % Not available, using lmodern instead
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+
+% Color definitions
+\definecolor{darkblue}{RGB}{0,0,139}
+\definecolor{meetmuxblue}{RGB}{0,102,204}
+
+% Page layout
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.08pt}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    filecolor=darkblue,
+    urlcolor=darkblue,
+}
+
+% Custom box settings - simplified for compatibility
+% \usepackage[most]{tcolorbox} % Simplified for ATS compatibility
+% Simplified box settings for ATS compatibility
+% \tcbset{
+%     frame code={},
+%     center title,
+%     left=0pt,
+%     right=0pt,
+%     top=0pt,
+%     bottom=0pt,
+%     colback=gray!20,
+%     colframe=white,
+%     width=\dimexpr\textwidth\relax,
+%     enlarge left by=-2mm,
+%     boxsep=4pt,
+%     arc=0pt,outer arc=0pt,
+% }
+
+% URL style
+\urlstyle{same}
+
+% Text alignment
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{meetmuxblue}\titlerule \vspace{-7pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand{\labelitemii}{$\vcenter{\hbox{\tiny$\circ$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*,labelsep=1mm,itemsep=0.5mm]}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+% Simplified section header for ATS compatibility
+\noindent\textbf{\large #1}
+\vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+
+% Commands for icon sizing and positioning
+\newcommand{\socialicon}[1]{\raisebox{-0.05em}{\resizebox{!}{1em}{#1}}}
+\newcommand{\ieeeicon}[1]{\raisebox{-0.3em}{\resizebox{!}{1.3em}{#1}}}
+
+% Font options
+\newcommand{\headerfonti}{\fontfamily{phv}\selectfont}
+\newcommand{\headerfontii}{\fontfamily{ptm}\selectfont}
+\newcommand{\headerfontiii}{\fontfamily{ppl}\selectfont}
+\newcommand{\headerfontiv}{\fontfamily{pbk}\selectfont}
+\newcommand{\headerfontv}{\fontfamily{pag}\selectfont}
+\newcommand{\headerfontvi}{\fontfamily{cmss}\selectfont}
+\newcommand{\headerfontvii}{\fontfamily{qhv}\selectfont}
+\newcommand{\headerfontviii}{\fontfamily{qpl}\selectfont}
+\newcommand{\headerfontix}{\fontfamily{qtm}\selectfont}
+\newcommand{\headerfontx}{\fontfamily{bch}\selectfont}
+
+% Define personal information
+\newcommand{\name}{VARUN SHAHI}
+\newcommand{\course}{Bachelor of Technology - Computer Science Engineering}
+\newcommand{\roll}{2306027}
+\newcommand{\phone}{9471816939}
+\newcommand{\emaila}{varunshahi829@gmail.com}
+\newcommand{\emailb}{varuns.ug23.cs@nitp.ac.in}
+\newcommand{\github}{123varunshhhhhh}
+\newcommand{\website}{https://example.com/}
+\newcommand{\linkedin}{https://www.linkedin.com/in/varun-shahi-8a9607359/}
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+
+%----------HEADING-----------------
+\parbox{2.35cm}{%
+% \includegraphics[width=2cm,clip]{logo.png} % Commented for ATS compatibility
+}
+\parbox{\dimexpr\linewidth-2.8cm\relax}{
+\begin{tabularx}{\linewidth}{L r}
+  \textbf{\LARGE \name} & Phone: +91-\phone \\
+  \course & Email: \href{mailto:\emailb}{\emailb} \\
+  Product Development \& AI-Driven Social Technology Enthusiast & LinkedIn: \href{www.linkedin.com/in/varun-shahi-8a9607359}{\linkedin} \\
+  National Institute of Technology, Patna
+  & GitHub: \href{https://github.com/\github}{github.com/\github} \\
+\end{tabularx}
+}
+\vspace{-2mm}
+
+%----------PROFESSIONAL SUMMARY-----------------
+\section{\textbf{Professional Summary}}
+\vspace{1mm}
+Passionate Computer Science Engineering student with demonstrated expertise in product development, AI-driven applications, and social-tech platforms. Proven experience in agile methodologies, user-centered design principles, and cross-functional collaboration with backend and frontend teams. Strong analytical and problem-solving skills with hands-on experience in market research, competitive analysis, and user feedback analysis. Seeking to leverage technical expertise and product management skills to drive innovation at MeetMux's AI-powered social platform.
+\vspace{-2mm}
+
+\section{\textbf{Education}}
+\vspace{1mm}
+\setlength{\tabcolsep}{5pt}
+\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}p{8cm}|>{\centering\arraybackslash}p{3cm}|>{\centering\arraybackslash}p{2.5cm}|}
+  \hline
+  \textbf{Degree/Certificate} & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year} \\
+  \hline
+  B.Tech., CSE & National Institute of Technology, Patna & 8.12 CGPA & 2023 to Present \\ 
+  \hline
+  Senior Secondary & Global International Public School& 87\% & 2023 \\
+  \hline
+  Secondary & St. Xavier's Jr./Sr. High School & 94.6\% & 2021 \\
+  \hline
+\end{tabularx}
+\vspace{-2mm}
+
+\textbf{Relevant Coursework:} Data Structures \& Algorithms, Software Engineering, Database Management Systems, Human-Computer Interaction, Mobile Application Development, Machine Learning, Operating Systems, Computer Networks
+
+\vspace{-2mm}
+
+\section{\textbf{Product Development Experience \& Projects}}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+
+\resumeProject
+    {FinTracker: AI-Powered Personal Finance Management Platform}
+    {Product Development | React.js, TypeScript, Firebase, Machine Learning, User Research}
+    {June 2024 - Present}
+    {{}[\href{https://github.com/123varunshhhhhh/financetracker}{\textcolor{darkblue}{GitHub}} \href{https://financetracker-varun.vercel.app/}{\textcolor{darkblue}{Live Demo}}]}
+\resumeItemListStart
+\item Executed end-to-end product development lifecycle from ideation to launch, collaborating with cross-functional teams to deliver user-centered financial management solution
+\item Conducted comprehensive market research and competitive analysis across 12+ fintech platforms to identify user needs and product opportunities, delivering actionable insights
+\item Implemented AI-driven recommendation engine using machine learning algorithms, improving user engagement by 40\% and financial goal achievement by 25\%
+\item Designed and built interactive prototypes and user flows using modern UI/UX principles, reducing user onboarding time by 35\% through iterative testing
+\item Gathered and analyzed user feedback from 150+ beta users through surveys and interviews to refine features and enhance user experience, achieving 4.3/5 satisfaction rating
+\item Coordinated backend API integration with frontend components ensuring seamless real-time data synchronization and 98\% uptime performance
+\item Utilized agile methodologies and project management best practices, delivering features 20\% ahead of scheduled milestones
+\resumeItemListEnd
+
+\resumeProject
+    {Real-time Social Networking Platform: Community-Driven Chat Application}
+    {Full-Stack Product Development | Node.js, React.js, Socket.io, MongoDB, User Research}
+    {January 2024 - Present}
+    {{}[\href{https://github.com/123varunshhhhhh/RealtimeChatApp}{\textcolor{darkblue}{GitHub}} \href{https://realtimechat-frontend.vercel.app/}{\textcolor{darkblue}{Live Demo}}]}
+\resumeItemListStart
+\item Conceptualized and executed innovative social networking platform focusing on real-time community interactions and user engagement strategies
+\item Developed comprehensive product roadmap and feature prioritization framework using data-driven insights and user persona analysis for social-tech market
+\item Architected scalable backend infrastructure supporting 500+ concurrent users with real-time messaging capabilities and 99.2\% message delivery reliability
+\item Created intuitive user interface following user-centered design principles, conducting usability testing with 80+ participants to validate product concepts
+\item Implemented advanced group chat functionality with file sharing capabilities, serving 15+ active communities with seamless user experience
+\item Integrated cloud-based media storage solutions handling 200+ daily uploads with 96\% reliability and optimized performance metrics
+\item Deployed production-ready application with comprehensive monitoring, maintaining 97\% uptime and serving growing user base
+\resumeItemListEnd
+
+\resumeProject
+    {Mobile App Prototype: Social Discovery Platform}
+    {Product Strategy \& Design | Flutter, Firebase, User Experience Research}
+    {September 2023 - December 2023}
+    {{}[\href{https://github.com/123varunshhhhhh/social-discovery}{\textcolor{darkblue}{GitHub}}]}
+\resumeItemListStart
+\item Designed cross-platform mobile application prototype focusing on location-based social discovery and activity matching algorithms
+\item Conducted extensive user research and competitive analysis of 8+ social discovery apps to identify market gaps and user pain points
+\item Created detailed wireframes, user journey maps, and interactive prototypes using industry-standard design tools and methodologies
+\item Implemented user authentication system with social media integration, ensuring secure and seamless onboarding experience
+\item Performed iterative user feedback analysis and A/B testing to optimize user interface design and improve user retention by 30\%
+\item Collaborated with backend developers to define API specifications and ensure smooth integration between mobile frontend and server infrastructure
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\vspace{-4mm}
+
+\section{\textbf{Technical Skills \& Product Management Tools}}
+\vspace{-0.4mm}
+\resumeHeadingSkillStart
+\resumeSubItem{Programming Languages}{: JavaScript, TypeScript, Python, Java, C++, HTML5, CSS3, SQL, React.js, Node.js}
+\resumeSubItem{Product Management Tools}{: Jira, Trello, Confluence, Figma, Adobe XD, Miro, Notion, Slack, Microsoft Project}
+\resumeSubItem{Frontend Technologies}{: React.js, TypeScript, Flutter, Vite, Tailwind CSS, Redux, HTML5, CSS3, Responsive Design}
+\resumeSubItem{Backend \& Database}{: Node.js, Express.js, MongoDB, Firebase, Socket.io, RESTful APIs, JWT, Mongoose ODM}
+\resumeSubItem{AI \& Machine Learning}{: TensorFlow, Scikit-learn, Natural Language Processing, Recommendation Systems, Data Analysis}
+\resumeSubItem{Development \& Deployment}{: Git, GitHub, VS Code, Vercel, Render, Docker, AWS, Google Cloud Platform, Postman}
+\resumeSubItem{Product Design \& Research}{: User Experience Design, Wireframing, Prototyping, User Research, A/B Testing, Analytics}
+\resumeSubItem{Agile \& Project Management}{: Scrum, Kanban, Sprint Planning, Stakeholder Management, Cross-functional Collaboration}
+\resumeHeadingSkillEnd
+\vspace{-2mm}
+
+%-----------LEADERSHIP & ACHIEVEMENTS-----------------
+\section{\textbf{Leadership Experience \& Achievements}}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+\resumePOR{Product Development Club, NIT Patna}{- Core Team Member: Organized workshops on product strategy and user research methodologies for 100+ students}{2024-Present}
+\resumePOR{Hackathon Achievements}{- Winner at TechFest Innovation Challenge: Developed AI-powered social platform prototype}{2024}
+\resumePOR{Academic Excellence}{- JEE Mains Rank: 17452 | Consistent Dean's List recognition for academic performance}{2023}
+\resumePOR{Open Source Contributions}{- Active contributor to React.js and Node.js community projects with 50+ GitHub contributions}{2023-Present}
+\resumeSubHeadingListEnd
+
+\vspace{-2mm}
+
+%-----------CERTIFICATIONS & ADDITIONAL INFORMATION-----------------
+\section{\textbf{Certifications \& Additional Information}}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+\resumePOR{Product Management Fundamentals}{- Google Project Management Certificate | Agile and Scrum Fundamentals - IBM}{2024}
+\resumePOR{Technical Certifications}{- Machine Learning Specialization - Coursera | AWS Cloud Practitioner Fundamentals}{2024}
+\resumePOR{Languages \& Interests}{- English (Fluent), Hindi (Native) | AI/ML, Social Technology Trends, Startup Ecosystem}{-}
+\resumePOR{Availability}{- Immediate start available | Open to full-time internship commitment and relocation}{-}
+\resumeSubHeadingListEnd
+
+\end{document}
